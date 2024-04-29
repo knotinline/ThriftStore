@@ -2,26 +2,26 @@ import { IoSearch } from "react-icons/io5";
 
 const SearchBar = () => {
     return (
-        <div>
-            <form className="relative w-10/12 min-w-[140px] rounded-full h-auto  hover:border-transparent ">
-                <div className="relative ">
+        <div className="relative flex-grow max-w-xs">
+            <form className="relative rounded-full hover:border-transparent">
+                <div className="flex items-center">
                     <input
                         type="text"
                         placeholder="What do you fancy?"
-                        className="w-full rounded-full p-4 h-6 focus:outline-none  ml-3 hover:shadow-lg focus:shadow-xl shadow-md"
+                        className="w-full rounded-full p-4 h-10 focus:outline-none hover:shadow-lg focus:shadow-xl shadow-md"
                     />
                     <button
                         type="submit"
-                        className="absolute right-1 top-1/2 rounded-full  p-1 -translate-y-1/2 h-6 "
+                        className="rounded-full p-1 h-10"
                     >
                         <IoSearch />
                     </button>
                 </div>
             </form>
         </div>
-
     );
 };
 
 export default SearchBar;
+
 

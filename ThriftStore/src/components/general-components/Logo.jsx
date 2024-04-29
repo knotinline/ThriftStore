@@ -1,6 +1,6 @@
 function Logo() {
   return(
-    <div className=" h-24 w-32 border-4 hidden sm:block ">  
+    <div className=" hidden sm:block h-16 w-24 sm:h-24 sm:w-32 border-4 sm:border-0 ">  
       <button className= " text-red-400 w-full h-full ">
         This is our Logo
       </button>
