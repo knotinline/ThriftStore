@@ -1,4 +1,3 @@
-
 import { IoSearch } from "react-icons/io5";
 
 const SearchBar = () => {
@@ -8,12 +7,12 @@ const SearchBar = () => {
                 <div className="relative ">
                     <input
                         type="text"
-                        placeholder="SEARCH HERE"
-                        className="w-full rounded-full p-4 h-6 focus:outline-none mt-5 ml-3 hover:shadow-lg focus:shadow-xl shadow-md"
+                        placeholder="What do you fancy?"
+                        className="w-full rounded-full p-4 h-6 focus:outline-none  ml-3 hover:shadow-lg focus:shadow-xl shadow-md"
                     />
                     <button
                         type="submit"
-                        className="absolute right-1 top-1/2 rounded-full  p-1 -translate-y-1/2 h-6 mt-3"
+                        className="absolute right-1 top-1/2 rounded-full  p-1 -translate-y-1/2 h-6 "
                     >
                         <IoSearch />
                     </button>
