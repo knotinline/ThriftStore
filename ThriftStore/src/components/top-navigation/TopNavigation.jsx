@@ -2,7 +2,6 @@ import Logo from "../general-components/Logo";
 import SearchBar from "../general-components/SearchBar";
 import UserMenu from "./user-menu/UserMenu";
 import { BsFilterLeft } from "react-icons/bs";
-import { BsEmojiWink } from "react-icons/bs";
 
 
 function TopNavigation() {
